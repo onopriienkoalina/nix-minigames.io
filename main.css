@@ -1,0 +1,20 @@
+body{
+    margin-top: 100px;
+    background-color: #FAFAFA;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #212529;
+    font-size: 24px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+a:hover{
+    color: 	#7f00ff;
+}

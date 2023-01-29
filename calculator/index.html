@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="calculator__display" id="display">0</div>
+            <div class="calculator__controls">
+                <button type="button" class="calculator__button" id="AC" onClick="clearDisplay(); allClear();">AC</button>
+                <button type="button" class="calculator__button" id="CE" onClick="clearDisplay();">CE</button>
+                <button type="button" class="calculator__button" id="percent" onClick="percent();">%</button>
+                <button type="button" class="calculator__button" id="divide" onClick="pressOp('/')">÷</button>
+                <button type="button" class="calculator__button" id="seven" onClick="pressNum(7);">7</button>
+                <button type="button" class="calculator__button" id="eight" onClick="pressNum(8);">8</button>
+                <button type="button" class="calculator__button" id="nine" onClick="pressNum(9);">9</button>
+                <button type="button" class="calculator__button" id="times" onClick="pressOp('*')">x</button>
+                <button type="button" class="calculator__button" id="four" onClick="pressNum(4);">4</button>
+                <button type="button" class="calculator__button" id="five" onClick="pressNum(5);">5</button>
+                <button type="button" class="calculator__button" id="six" onClick="pressNum(6);">6</button>
+                <button type="button" class="calculator__button" id="minus" onClick="pressOp('-')">-</button>
+                <button type="button" class="calculator__button" id="one" onClick="pressNum(1);">1</button>
+                <button type="button" class="calculator__button" id="two" onClick="pressNum(2);">2</button>
+                <button type="button" class="calculator__button" id="three" onClick="pressNum(3);">3</button>
+                <button type="button" class="calculator__button" id="plus" onClick="pressOp('+');">+</button>
+                <button type="button" class="calculator__button button__zero" id="zero" onClick="pressNum(0);">0</button>
+                <button type="button" class="calculator__button" id="dot" onClick="pressNum('.');">.</button>
+                <button type="button" class="calculator__button" id="equals" onClick="equals();">=</button>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
